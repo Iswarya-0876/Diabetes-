@@ -7,18 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1ygTjud9K0GSZWhLW7qv65AWyR_KgiM8-
 """
 
-import pandas as pd
-import numpy as np
-import seaborn as sns
-from sklearn.preprocessing import StandardScaler
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.metrics import confusion_matrix, roc_curve, roc_auc_score,f1_score,auc, recall_score,precision_recall_curve, accuracy_score, classification_report,precision_score
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier ,IsolationForest, GradientBoostingClassifier
-from sklearn.linear_model import LogisticRegression
-
 from google.colab import drive
 drive.mount('/gdrive')
 
