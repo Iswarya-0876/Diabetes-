@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1ygTjud9K0GSZWhLW7qv65AWyR_KgiM8-
 """
 
-from google.colab import drive
-drive.mount('/gdrive')
-
-import os
-os.chdir('/gdrive/My Drive')
-
 import pandas as pd # manipulate your data
 D = pd.read_csv("Diabetes.csv", index_col=0)
 print(f"Data has {D.shape[0]} rows and {D.shape[1]} columns.\n")
